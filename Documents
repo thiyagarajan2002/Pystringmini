@@ -1,7 +1,7 @@
 #Thiyagarajan V
 
 from pystringmini import *
-string="Hello"
+string="Hello Hai"
 print(uppercase(string))
 print(lowercase(string))
 print(capitalize(string))
