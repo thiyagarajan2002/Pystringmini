@@ -1,15 +1,34 @@
-from pystringmini import *
-string="Hello Hai"
-print(uppercase(string))
-print(lowercase(string))
-print(capitalize(string))
-print(length(string))
-print(digit(string))
-print(minimum(string))
-print(maximum(string))
-print(replace(string,'Hai','Everyone'))
-print(encryption(string))
-print(decryption(string))
-print(split(string))
-print(help())
-print(about())
+#Sample Package Operations
+from pystringmini import 
+string="https://pypi.org/project/Pystringmini/"
+string1="TRJ"
+print("Uppercase:",uppercase(string))
+print("Lowercase:",lowercase(string))
+print("Capitalize:",capitalize(string))
+print("Length:",length(string))
+print("Digit:",digit(string))
+print("Minimum:",min(string))
+print("Maximum:",max(string))
+print("Replace:",replace(string1,'TRJ','Thiyagarajan'))
+Encryption=encryption(string)
+Decryption=decryption(Encryption)
+print("Encryption:",Encryption)
+print("Decryption:",Decryption)
+print("Split:",split(string))
+print("Help:",help())
+
+"""
+Output
+Uppercase:HTTPS://PYPI.ORG/PROJECT/PYSTRINGMINI/
+Lowercase:https://pypi.org/project/pystringmini/ 
+Capitalize:Https://pypi.org/project/Pystringmini/ 
+Length:38 
+Digit:False 
+Minimum:P 
+Maximum:y 
+Replace:Thiyagarajan 
+Encryption:kwwsv=22sbsl1ruj2surmhfw2Sbvwulqjplql2 
+Decryption:https://pypi.org/project/Pystringmini/ 
+Split:['https://pypi.org/project/Pystringmini/'] 
+Help:https://github.com/thiyagarajan2002/Pystringmini/blob/main/Documents
+"""
